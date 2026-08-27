@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Patel Pest Control - Interactive Application Logic & WhatsApp Integration
+   Patel Care Service - Interactive Application Logic & WhatsApp Integration
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -170,7 +170,7 @@ function sendCalculatedQuote() {
     'amc': 'Annual AMC (6 Visits/Yr)'
   };
 
-  const message = `Hello Patel Pest Control,\n` +
+  const message = `Hello Patel Care Service,\n` +
     `I calculated a service estimate on your website:\n\n` +
     `* Property: ${propNames[selectedProperty]}\n` +
     `* Target Pest: ${pestNames[selectedPest]}\n` +
@@ -193,7 +193,7 @@ function updateMessagePreview() {
   const service = document.getElementById('custService')?.value || 'Cockroach & Ant Control';
   const date = document.getElementById('custDate')?.value || 'Tomorrow';
 
-  const preview = `Hello Patel Pest Control,\n` +
+  const preview = `Hello Patel Care Service,\n` +
     `I would like to book a pest control service.\n\n` +
     `* Name: ${name}\n` +
     `* Phone: ${phone}\n` +
